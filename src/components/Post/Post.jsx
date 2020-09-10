@@ -28,7 +28,3 @@ export default function Post(props) {
 		</Grid>
 	);
 }
-
-Post.propTypes = {
-	post: PropTypes.object
-};

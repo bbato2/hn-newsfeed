@@ -62,7 +62,3 @@ export default function MainFeaturedPost(props) {
     </Paper>
   );
 }
-
-MainFeaturedPost.propTypes = {
-  post: PropTypes.object,
-};
