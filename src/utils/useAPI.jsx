@@ -16,7 +16,7 @@ function useAPI(props) {
 		let points = newPoints ? newPoints : 200;
 
 		fetch(
-			`http://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i>${seconds},points>${points}`
+			`https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i>${seconds},points>${points}`
 		)
 			.then((res) => res.json())
 			.then((data) => {
